@@ -6,7 +6,7 @@ multiinterceptor is a simple library which provides a function to chain multiple
 
 ```go
 import (
-	multiint "github.com/mercari/go-grpc-interceptor/multiinterceptor"
+	multiint "github.com/igor-tsiglyar/go-grpc-interceptor/multiinterceptor"
 )
 
 func main() {

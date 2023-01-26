@@ -6,8 +6,8 @@ Under development.
 
 ```golang
 import (
-	"github.com/uber-go/zap"
-	grpczap "github.com/mercari/go-grpc-interceptor/zap"
+	"go.uber.org/zap"
+	grpczap "github.com/igor-tsiglyar/go-grpc-interceptor/zap"
 	"golang.org/x/net/context"
 )
 
@@ -23,8 +23,8 @@ func main() {
 
 ```golang
 import (
-	"github.com/uber-go/zap"
-	"github.com/mercari/go-grpc-interceptor/zap/zapctx"
+	"go.uber.org/zap"
+	"github.com/igor-tsiglyar/go-grpc-interceptor/zap/zapctx"
 	"golang.org/x/net/context"
 )
 
